@@ -1,0 +1,59 @@
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    
+}
+
+.foto {
+    width: 205.6vh;
+    height: 100vh;
+}
+
+.title {
+    position: absolute;   
+    top: 6%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    z-index: 1;
+    color: black;
+    font-weight: bolder;
+    font-size: 32px;
+}
+
+.textArea {
+    position: absolute;   
+    top: 30%;
+    left: 30%;
+    transform: translate(-50%, -50%); 
+    z-index: 1;
+    color: black;
+    font-weight: bolder;
+    font-size: 18px;
+    border: none;
+}
+
+.boton {
+    position: absolute;   
+    top: 35%;
+    left: 25%;
+    transform: translate(-50%, -50%); 
+    z-index: 1;
+    cursor: pointer;
+    color: black;
+    font-weight: bolder;
+    font-size: 18px;
+    border: none;
+}
+
+
+.descripcion_boton {
+    position: absolute;   
+    top: 27%;
+    left: 28.2%;
+    transform: translate(-50%, -50%); 
+    z-index: 1;
+    color: black;
+    font-weight: bolder;
+    font-size: 18px;
+}
